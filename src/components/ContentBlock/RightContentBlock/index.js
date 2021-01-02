@@ -24,7 +24,14 @@ const RightBlock = ({ last, first, title, content, button, icon }) => {
                   typeof button === "object" &&
                   button.map((item, id) => {
                     return (
-                      <Button key={id} color={item.color} width="true">
+                      <Button
+                        key={id}
+                        color={item.color}
+                        width="true"
+                        onClick={() =>
+                          (window.location.href = "https://m.me/fbotsph")
+                        }
+                      >
                         {t(item.title)}
                       </Button>
                     );

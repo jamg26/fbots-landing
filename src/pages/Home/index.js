@@ -15,7 +15,13 @@ import ContactBlock from "../../content/contactBlock.json";
 import AutomatedBlock from "../../content/automatedBlock.json";
 import ControlPanel from "../../content/cpanelBlock.json";
 
+import axios from "axios";
+
 const Home = () => {
+  React.useEffect(() => {
+    axios.post("https://contact-mailer.glitch.me/wake").then(() => {});
+  }, []);
+
   return (
     <Container>
       <ScrollToTop />
@@ -43,19 +49,19 @@ const Home = () => {
         type="right"
         title={ThirdBlock.title}
         content={ThirdBlock.text}
-        icon="product-launch.svg"
+        icon="ecommerce.svg"
       />
       <ContentBlock
         type="left"
         title={AutomatedBlock.title}
         content={AutomatedBlock.text}
-        icon="product-launch.svg"
+        icon="workspace.svg"
       />
       <ContentBlock
         type="right"
         title={ControlPanel.title}
         content={ControlPanel.text}
-        icon="product-launch.svg"
+        icon="process.svg"
       />
       <ContentBlock
         type="left"
@@ -63,7 +69,7 @@ const Home = () => {
         content={FourthBlock.text}
         icon="waving.svg"
       />
-      {/* <ContactFrom title={ContactBlock.title} content={ContactBlock.text} /> */}
+      <ContactFrom title={ContactBlock.title} content={ContactBlock.text} />
     </Container>
   );
 };

@@ -18,7 +18,7 @@ const useForm = (validate) => {
     event.preventDefault();
     setErrors(validate(values));
     // Your url for API
-    const url = "";
+    const url = "https://contact-mailer.glitch.me/contact";
     if (Object.keys(values).length === 3) {
       axios
         .post(url, {

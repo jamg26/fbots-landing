@@ -1,4 +1,5 @@
 {
   "title": "FBots - Virtual assistant for your business page.",
-  "text": "Get orders, handle customers even you're offline."
+  "text": "Get orders, handle customers even you're offline.",
+  "button": [{ "title": "Get Started" }]
 }
