@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 import SvgIcon from "../../common/SvgIcon";
 import Button from "../../common/Button";
 
+import Logo from "../../logo.png";
+
 import * as S from "./styles";
 
 const Header = () => {
@@ -51,7 +53,7 @@ const Header = () => {
           <Col>
             <S.LogoContainer to="/">
               {/* <SvgIcon src="logo.png" /> */}
-              <img src="/img/svg/logo.png" width="75px" />
+              <img src={Logo} width="75px" />
             </S.LogoContainer>
           </Col>
           <S.NotHidden>

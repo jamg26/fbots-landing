@@ -7,6 +7,8 @@ import { Fade } from "react-reveal";
 import Container from "../../common/Container";
 import SvgIcon from "../../common/SvgIcon";
 
+import Logo from "../../logo.png";
+
 import * as S from "./styles";
 
 const Footer = () => {
@@ -114,7 +116,7 @@ const Footer = () => {
                 <S.LogoContainer>
                   {/* <SvgIcon src="logo.svg" /> */}
 
-                  <img src="/img/svg/logo.png" width="75px" />
+                  <img src={Logo} width="75px" />
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
