@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/fbots-landing/static/js/main.63c047ba.chunk.js",
+    "main.js.map": "/fbots-landing/static/js/main.63c047ba.chunk.js.map",
+    "runtime-main.js": "/fbots-landing/static/js/runtime-main.2ddc1bcf.js",
+    "runtime-main.js.map": "/fbots-landing/static/js/runtime-main.2ddc1bcf.js.map",
+    "static/css/2.4d98ed14.chunk.css": "/fbots-landing/static/css/2.4d98ed14.chunk.css",
+    "static/js/2.2a1a39e9.chunk.js": "/fbots-landing/static/js/2.2a1a39e9.chunk.js",
+    "static/js/2.2a1a39e9.chunk.js.map": "/fbots-landing/static/js/2.2a1a39e9.chunk.js.map",
+    "index.html": "/fbots-landing/index.html",
+    "static/css/2.4d98ed14.chunk.css.map": "/fbots-landing/static/css/2.4d98ed14.chunk.css.map",
+    "static/js/2.2a1a39e9.chunk.js.LICENSE.txt": "/fbots-landing/static/js/2.2a1a39e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ddc1bcf.js",
+    "static/css/2.4d98ed14.chunk.css",
+    "static/js/2.2a1a39e9.chunk.js",
+    "static/js/main.63c047ba.chunk.js"
+  ]
+}
