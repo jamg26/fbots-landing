@@ -57,7 +57,7 @@ const Styles = createGlobalStyle`
         color: #2E186A;
 
         :hover {
-            color: rgb(255, 130, 92);
+            color: rgb(238, 14, 81);
         }
     }
     

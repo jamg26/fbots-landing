@@ -28,7 +28,7 @@ export const NavLink = styled(Link)`
   }
 
   &.active {
-    color: rgb(255, 130, 92);
+    color: rgb(238, 14, 81);
   }
 `;
 
@@ -97,11 +97,11 @@ export const Large = styled(Link)`
   margin-bottom: 0.625rem;
 
   &:hover {
-    color: rgb(255, 130, 92);
+    color: rgb(238, 14, 81);
   }
 
   &.active {
-    color: rgb(255, 130, 92);
+    color: rgb(238, 14, 81);
   }
 `;
 
@@ -113,8 +113,8 @@ export const Chat = styled.p`
   margin-top: 1rem;
 
   &:hover {
-    border-bottom: 1px solid rgb(255, 130, 92);
-    color: rgb(255, 130, 92);
+    border-bottom: 1px solid rgb(238, 14, 81);
+    color: rgb(238, 14, 81);
   }
 `;
 
@@ -141,7 +141,7 @@ export const FooterContainer = styled.div`
     height: 25px;
 
     &:hover {
-      fill: rgb(255, 130, 92);
+      fill: rgb(238, 14, 81);
     }
   }
 `;

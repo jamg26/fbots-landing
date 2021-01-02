@@ -30,31 +30,41 @@ const Footer = () => {
                     `Do you have any question regarding the project? Fell free to reach out.`
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
+                <a href="mailto:jammmg26@gmail.com">
                   <S.Chat>{t(`Let's Chat`)}</S.Chat>
                 </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{t("Policy")}</S.Title>
+                {/* <S.Title>{t("Policy")}</S.Title>
                 <S.Large to="/" left="true">
                   {t("Application Security")}
                 </S.Large>
                 <S.Large left="true" to="/">
                   {t("Software Principles")}
-                </S.Large>
+                </S.Large> */}
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Empty />
-                <S.Large left="true" to="/">
+                <S.Large
+                  left="true"
+                  onClick={() =>
+                    (window.location.href = "https://m.me/fbotsph")
+                  }
+                >
                   {t("Support Center")}
                 </S.Large>
-                <S.Large left="true" to="/">
+                <S.Large
+                  left="true"
+                  onClick={() =>
+                    (window.location.href = "https://m.me/fbotsph")
+                  }
+                >
                   {t("Customer Support")}
                 </S.Large>
               </Col>
             </Row>
             <Row type="flex" justify="space-between">
-              <Col lg={10} md={10} sm={12} xs={24}>
+              {/* <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("ADDRESS")}</S.Language>
                 <S.Para>Rancho Santa Margarita</S.Para>
@@ -75,9 +85,9 @@ const Footer = () => {
                 <S.Large left="true" to="/">
                   {t("Careers & Culture")}
                 </S.Large>
-              </Col>
+              </Col> */}
               <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Select>
+                {/* <S.Select>
                   <S.Language>{t("Language")}</S.Language>
                   <Select
                     defaultValue="en"
@@ -87,7 +97,7 @@ const Footer = () => {
                     <Option value="en">English</Option>
                     <Option value="es">Español</Option>
                   </Select>
-                </S.Select>
+                </S.Select> */}
               </Col>
             </Row>
           </Container>
@@ -102,32 +112,34 @@ const Footer = () => {
             >
               <S.NavLink to="/">
                 <S.LogoContainer>
-                  <SvgIcon src="logo.svg" />
+                  {/* <SvgIcon src="logo.svg" /> */}
+
+                  <img src="/img/svg/logo.png" width="75px" />
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
-                <a
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                {/* <a
+                  href="https://github.com/jamg26"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="github.svg" />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://twitter.com/Adrinlolx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="twitter.svg" />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://www.linkedin.com/in/lasha-kakabadze//"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="linkedin.svg" />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://github.com/Adrinlol/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -140,13 +152,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   <SvgIcon src="medium.svg" />
-                </a>
+                </a> */}
               </S.FooterContainer>
             </Row>
             <Row type="flex" justify="space-between">
               <Col lg={12} md={12} sm={12} xs={24}>
                 <S.CSite>
-                  All Rights Reserved - Landy © {new Date().getFullYear()}
+                  All Rights Reserved - FBots © {new Date().getFullYear()}
                 </S.CSite>
               </Col>
             </Row>

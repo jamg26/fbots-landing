@@ -12,6 +12,8 @@ import SecondBlock from "../../content/secondBlock.json";
 import ThirdBlock from "../../content/thirdBlock.json";
 import FourthBlock from "../../content/fourthBlock.json";
 import ContactBlock from "../../content/contactBlock.json";
+import AutomatedBlock from "../../content/automatedBlock.json";
+import ControlPanel from "../../content/cpanelBlock.json";
 
 const Home = () => {
   return (
@@ -43,14 +45,25 @@ const Home = () => {
         content={ThirdBlock.text}
         icon="product-launch.svg"
       />
-
+      <ContentBlock
+        type="left"
+        title={AutomatedBlock.title}
+        content={AutomatedBlock.text}
+        icon="product-launch.svg"
+      />
+      <ContentBlock
+        type="right"
+        title={ControlPanel.title}
+        content={ControlPanel.text}
+        icon="product-launch.svg"
+      />
       <ContentBlock
         type="left"
         title={FourthBlock.title}
         content={FourthBlock.text}
         icon="waving.svg"
       />
-      <ContactFrom title={ContactBlock.title} content={ContactBlock.text} />
+      {/* <ContactFrom title={ContactBlock.title} content={ContactBlock.text} /> */}
     </Container>
   );
 };

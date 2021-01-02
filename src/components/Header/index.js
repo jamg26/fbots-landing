@@ -27,18 +27,18 @@ const Header = () => {
     return (
       <Fragment>
         <S.CustomNavLinkSmall>
-          <Link to="/">{t("About")}</Link>
+          <a href="https://www.facebook.com/fbotsph/">{t("About")} </a>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall>
-          <Link to="/">{t("Mission")}</Link>
+          <a href="https://m.me/fbotsph">{t("Messenger")} </a>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall>
-          <Link to="/">{t("Product")}</Link>
+          <a href="https://m.me/111353847400439">{t("Demo")} </a>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall style={{ width: "180px" }}>
-          <Link to="/">
-            <Button>{t("Contact")}</Button>
-          </Link>
+          <a href="https://store.fbots.ml">
+            <Button>{t("Control Panel")}</Button>
+          </a>
         </S.CustomNavLinkSmall>
       </Fragment>
     );
@@ -50,7 +50,8 @@ const Header = () => {
         <Row type="flex" justify="space-between" gutter={20}>
           <Col>
             <S.LogoContainer to="/">
-              <SvgIcon src="logo.svg" />
+              {/* <SvgIcon src="logo.png" /> */}
+              <img src="/img/svg/logo.png" width="75px" />
             </S.LogoContainer>
           </Col>
           <S.NotHidden>
