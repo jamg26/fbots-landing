@@ -37,6 +37,11 @@ const Header = () => {
         <S.CustomNavLinkSmall>
           <a href="https://m.me/111353847400439">{t("Demo")} </a>
         </S.CustomNavLinkSmall>
+        <S.CustomNavLinkSmall>
+          <a href="https://play.google.com/store/apps/details?id=com.jamg.fbots">
+            {t("Download")}
+          </a>
+        </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall style={{ width: "180px" }}>
           <a href="https://store.fbots.ml">
             <Button>{t("Control Panel")}</Button>
